@@ -14,7 +14,7 @@ while True:
     if nombre > prix:
         print("Le juste prix est plus bas")
     if nombre == prix:
-        print("Félicitations, vous avez trouvé le juste prix en {} essais, votre score est {} !".format(prix, tentatives))
+        print(f"Félicitations, vous avez trouvé le juste prix en {tentatives} essais!")
         break
 
 print("Partie terminée")
